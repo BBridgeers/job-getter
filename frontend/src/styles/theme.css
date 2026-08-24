@@ -1,0 +1,59 @@
+:root {
+  /* Backgrounds */
+  --bg-void: #000000;
+  --bg-primary: #0a0a0f;
+  --bg-panel: #0d1117;
+  --bg-panel-hover: #151b23;
+  --bg-grid: #1a1a2e;
+
+  /* Neon Glow Colors */
+  --neon-cyan: #00FFFF;
+  --neon-blue: #00BFFF;
+  --neon-purple: #BF00FF;
+  --neon-green: #00FF66;
+  --neon-orange: #FF6600;
+  --neon-red: #FF0040;
+  --neon-pink: #FF00FF;
+  --neon-white: #FFFFFF;
+
+  /* Gold & Accent (used by buttons, search bar, modal headers) */
+  --gold-leaf: #D4AF37;
+  --gold-24k: #FFD700;
+  --midnight-black: #05070d;
+  --emerald-neon: #00FF99;
+
+  /* Text Colors */
+  --text-primary: #FFFFFF;
+  --text-secondary: #B0B0B0;
+  --text-muted: #666666;
+  --text-glow: #00FFFF;
+
+  /* Glow Effects */
+  --glow-cyan: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 40px #00FFFF;
+  --glow-cyan-subtle: 0 0 5px #00FFFF, 0 0 10px rgba(0, 255, 255, 0.5);
+  --text-glow-cyan: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+  
+  --glow-green: 0 0 5px #00FF66, 0 0 10px #00FF66, 0 0 20px #00FF66;
+  --glow-purple: 0 0 5px #BF00FF, 0 0 10px #BF00FF, 0 0 20px #BF00FF;
+  --glow-orange: 0 0 5px #FF6600, 0 0 10px #FF6600, 0 0 20px #FF6600;
+  --glow-red: 0 0 5px #FF0040, 0 0 10px #FF0040, 0 0 20px #FF0040;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+}

@@ -1,0 +1,92 @@
+# Pipeline — Pending and Processed Job URLs
+
+## Pending
+- [ ] https://www.linkedin.com/jobs/view/principal-customer-success-r5246-at-shield-ai-4432582085 | Shield AI | Principal, Customer Success | 3.8/5
+- [ ] https://careers-healthedge.icims.com/jobs/8230/sr-customer-success-executive/job | HealthEdge | Sr Customer Success Executive | 3.7/5
+- [ ] https://jobs.ashbyhq.com/ashby/2b401986-a491-4f9b-9c22-63079bcd64c2 | Ashby | Strategic Customer Success Manager | 3.6/5
+- [ ] https://www.linkedin.com/jobs/view/interactive-partner-banking-finance-at-tata-consultancy-services-4426993068 | Tata Consultancy Services | Interactive Partner Banking & Finance | 3.5/5
+- [ ] https://boards.greenhouse.io/embed/job_app?board_token=10pearlsamerica&token=4365465005 | 10Pearls | Client Partner | 3.5/5
+- [ ] https://jobs.lever.co/bounteous/42bac97f-1b14-4826-b8e5-8d1aba4a21e8 | Bounteous | VP Client Service (Pharmacy/Provider) | 3.7/5
+- [ ] https://gigpro.html-5.me/job/enterprise-customer-success-manager-3 | NinjaOne | Enterprise Customer Success Manager | 4.1/5
+- [ ] https://jobs.ashbyhq.com/vetcove/ef7399d9-6ddb-4ab9-add5-9f60d1fa55f2 | Vetcove | Account Manager / Customer Success | 2.8/5
+- [ ] https://www.indeed.com/q-remote-customer-success-l-texas-jobs.html | Nodes & Links | Senior Customer Success Manager (Remote TX) | 3.6/5
+- [ ] https://jobera.com/job/quisitivejobs-customer-success-manager-25cab88c/ | Quisitive | Customer Success Manager | 3.6/5
+- [ ] https://flexgen.zya.me/job/remote-customer-success-account-manager-2 | Rechat | Customer Success Account Manager | 3.5/5
+- [ ] https://jobs.ashbyhq.com/deepjudge/61daa039-7cad-4c81-91ca-5ea955bef9e4 | DeepJudge | Customer Success Manager | 3.4/5
+- [ ] https://jobs.ashbyhq.com/quora/aa9c9054-7751-4ae8-89ba-1a649a1af076 | Quora | Senior Customer Success Manager | 2.8/5
+- [ ] https://jobs.ashbyhq.com/kit/719cb693-533c-4150-ad29-08b57cfeae16 | Kit | Senior Customer Success Manager | 3.1/5
+- [ ] https://jobs.ashbyhq.com/ibotta/c363616d-a2c4-4c66-9194-324879723e8b | Ibotta | Account Manager | 3.4/5
+- [ ] https://jobs.ashbyhq.com/sondermind/faa86497-be8a-4006-aa6c-533a8bf9d35d | SonderMind | Account Manager Health Plans | 3.0/5
+- [ ] https://jobs.lever.co/shieldai/c8a795a0-0155-4cce-8f43-c504756f34a3 | Shield AI | Staff Customer Success Manager | 2.3/5
+- [ ] https://jobs.lever.co/listo/52716172-1f5d-42e9-9374-1726a999487c | Listo | Customer Success Lead | 3.0/5
+- [ ] https://www.indeed.com/q-remote-customer-success-l-dallas,-tx-jobs.html | Turnitin | Customer Success Manager NOA Higher Ed | 2.3/5
+- [ ] https://snaprecruit.com/job/remote-senior-customer-irving-texas-h3dk20260627090619.html | Element451 | Sr CSM Strategic Accounts | 3.3/5
+- [ ] https://boards.greenhouse.io/reltio/jobs/5403586004 | Reltio | Customer Success Manager | 3.3/5
+- [ ] https://www.linkedin.com/jobs/view/customer-success-manager-at-automation-anywhere-4432446633 | Automation Anywhere | Customer Success Manager | 4.2/5
+- [ ] https://jobs.ashbyhq.com/scribe/9168c50c-26c6-456e-a06f-3c2d92916165 | Scribe | Customer Success Manager Enterprise | 4.0/5
+- [ ] https://wfhcatalyst.10001mb.com/job/speciality-client-partner-manufacturing-high-tech-remote | NTT DATA | Specialty Client Partner Manufacturing/High Tech | 3.8/5
+- [ ] https://www.mysmartpros.com/tuition/job/sr-customer-success-manager-strategic-account-5194728/ | Genesys | Sr Customer Success Manager Strategic Account | 3.8/5
+- [ ] https://hiringcafe.com/job/specialty-client-partner-oil-and-gas-remote-us-dallas-tx-us-ntt-data-uevvjg3s5j1g8sqf | NTT DATA | Specialty Client Partner Oil & Gas | 3.7/5
+- [ ] https://hiringcafe.com/job/client-partner-senior-infor-dallas-texas-9z114n0a8b7y4jjm | Infor | Client Partner Senior | 3.6/5
+- [ ] https://careers.unitedhealthgroup.com/job/dallas/sr-strategic-account-executive-remote/34088/96918204864 | UnitedHealth Group | Sr Strategic Account Executive | 3.6/5
+- [ ] https://hiringcafe.com/job/senior-client-partner-high-tech-vertical-us-remote-ust-dallas-texas-pqoeflkygasn1rez | UST | Senior Client Partner High Tech | 3.5/5
+- [ ] https://hiringcafe.com/job/strategic-account-executive-design-firms-schneider-electric-dallas-9nsklyfvaa8dd0or | Schneider Electric | Strategic Account Executive Design Firms | 3.5/5
+- [ ] https://jobs.ashbyhq.com/n8n/a54307ce-d8db-4560-b5c2-1dcd788215c5 | n8n | Customer Success Manager Guided | 3.5/5
+- [ ] https://snaprecruit.com/job/remote-senior-customer-dallas-texas-zqtl20260710090711.html | EnGen | Sr CSM Strategic Accounts | 3.5/5
+- [ ] https://jobs.lever.co/h1/078b2c83-709e-4679-a2c4-5e9bbe8912a2 | H1 | Senior Strategic Account Manager Pharma | 3.5/5
+- [ ] https://jobs.lever.co/Flex/6db02e53-c5b4-4c03-80c4-604b12ac9960 | Flex | Account Manager | 3.4/5
+- [ ] https://jobs.lever.co/kobie/a9770ecb-b3e4-41f5-9873-3399601b63bb/apply | Kobie | Sr Account Manager | 3.3/5
+- [ ] https://hiring.camp/job/OOwEDN | Cohesity | Strategic Client Executive | 3.2/5
+- [ ] https://hiring.camp/job/Za9xN0 | Kyndryl | Assoc Partner Consult Partner Cloud/Healthcare | 3.5/5
+- [ ] https://boards.greenhouse.io/samsara/jobs/8121312 | Samsara | Enterprise Core Implementation Consultant West | 3.8/5
+- [ ] https://jobs.lever.co/verygoodsecurity/a65a52af-331f-4068-814d-31c83059765f | VGS | Senior Account Manager | 3.6/5
+- [ ] https://boards.greenhouse.io/canopyconnect/jobs/6145961004 | Canopy Connect | Enterprise Implementation Consultant | 3.5/5
+- [ ] https://jobs.lever.co/foodsmart/203832bc-bc3e-4988-bcb7-38efd5636461 | Foodsmart | Senior Account Manager Healthcare/Health Plans | 3.5/5
+- [ ] https://jobs.ashbyhq.com/synthesia/3be3afcc-3358-480c-93df-516b7ee601d5 | Synthesia | Strategic Customer Success Manager | 3.8/5
+- [ ] https://careers.mckesson.com/en/job/texas/customer-success-manager-ehr-oncology/733/92162465504 | McKesson | Customer Success Manager EHR Oncology | 3.6/5
+- [ ] https://www.linkedin.com/jobs/view/client-success-manager-at-jpmorganchase-4215139073 | JPMorganChase | Client Success Manager | 3.7/5
+- [ ] https://jobgrow.pragatishilclasses.org/job/customer-success-account-manager-ehr | McKesson | Customer Success Account Manager EHR | 3.6/5
+- [ ] https://us.sercanto.com/detail/a/client-partner-healthcare_dallas_3286979008 | Slalom | Client Partner Healthcare | 4.2/5
+- [ ] https://careers.cognizant.com/ca-en/jobs/00068596542/healthcare-ai-engagement-lead-remote/ | Cognizant | Healthcare AI Engagement Lead | 3.8/5
+- [ ] https://earnbetter.com/app/job/01JEZEPWPSJWQ17PQAGWRZCMFD/ | Resultant | Client Partner Workforce & Economic Development | 3.5/5
+- [ ] https://job-boards.greenhouse.io/greenirony/jobs/5126436007 | Green Irony | Client Success Manager | 3.2/5
+- [ ] https://www.linkedin.com/jobs/view/customer-success-manager-remote-at-emerson-4415322142 | Emerson | Customer Success Manager - Remote | 4.0/5
+- [ ] https://jobs.lever.co/h1/65c2c95e-dd39-4ec7-bd0b-ab6cb269644f | H1 | Principal Customer Success Manager - Pharma | 3.8/5
+- [ ] https://jobs.ashbyhq.com/lumos/5cda763f-f302-45d2-b3db-49e5a4ea52e9 | Lumos | Enterprise Customer Success Manager | 4.2/5
+- [ ] https://boards.greenhouse.io/dominodatalab/jobs/2385331 | Domino Data Lab | Enterprise Customer Success Manager | 3.7/5
+- [ ] https://www.linkedin.com/jobs/view/ai-implementation-enablement-manager-at-m-financial-group-4430211135 | M Financial Group | AI Implementation & Enablement Manager | 3.6/5
+- [ ] https://jobs.ashbyhq.com/assorthealth/a3a6a725-939a-4bdf-b2da-de3b32f68b5c | Assort Health | Senior Customer Success Manager | 3.5/5
+- [ ] https://jobs-radar.com/job/principal-customer-success-manager-at-edb-0ce914 | EDB | Principal Customer Success Manager | 4.0/5
+- [ ] https://job-boards.greenhouse.io/karbon/jobs/6093692004 | Karbon | Senior Customer Success Manager | 3.8/5
+- [ ] https://job-boards.eu.greenhouse.io/mariadbplc/jobs/4915153101 | MariaDB/GridGain | Enterprise Customer Success Manager | 3.6/5
+- [ ] https://hiresub.infinityfree.me/job/sr-customer-success-manager-5036404 | OneSource Virtual | Sr Customer Success Manager | 3.8/5
+- [ ] https://www.mysmartpros.com/tuition/job/client-success-manager-remote-f97b9550/ | Neumo Holdings | Customer Success Manager | 3.5/5
+- [ ] https://www.linkedin.com/jobs/view/consultant-mes-project-implementation-at-infor-4423240670 | Infor | Consultant MES Project Implementation | 3.5/5
+- [ ] https://www.linkedin.com/jobs/view/customer-success-executive-central-region-at-hippocratic-ai | Hippocratic AI | Customer Success Executive (Central Region) | 4.0/5
+- [ ] https://jobs.lever.co/captivateiq/d77a3554-597c-429c-b7f4-22dedc23effb | CaptivateIQ | Senior Customer Success Manager, Sales Planning | 3.7/5
+- [ ] https://www.talent.com/view?id=613001132081480660 | Blue Ocean Ventures | Client Partner - Healthcare | 3.7/5
+- [ ] https://www.linkedin.com/jobs/view/senior-customer-success-executive-at-field-nation-4435324985 | Field Nation | Senior Customer Success Executive | 3.7/5
+- [ ] https://www.linkedin.com/jobs/view/customer-success-executive-weekend-us-hours-remote-at-prenetics-4452391280 | Prenetics | Customer Success Executive (Weekend, US hours, Remote) | 3.5/5
+- [ ] https://jobs.lever.co/esper/48b7061a-e442-4a8a-bd8c-b1858ae5fc5c | Esper | Implementation Account Manager | 3.6/5
+- [ ] https://www.builtinaustin.com/job/account-manager-dc/8656584 | PagerDuty | Account Manager | 4.0/5
+- [ ] https://www.builtinaustin.com/job/account-manager-datagrid/8391959 | Procore Technologies | Account Manager (Datagrid) | 3.8/5
+- [ ] https://www.builtinaustin.com/job/senior-account-manager-enterprise/9142016 | Braze | Account Manager, Enterprise | 3.8/5
+- [ ] https://www.linkedin.com/jobs/view/client-partner-at-netcracker-technology-4211754590 | NetCracker Technology | Client Partner | 3.7/5
+- [ ] https://snaprecruit.com/job/remote-customer-success-garland-texas-gt5u20260629083125.html | Cordance/eRezLife | Customer Success & Account Manager | 3.6/5
+- [ ] https://www.indeed.com/q-client-success-manager-remote-l-texas-jobs.html | Trivium | Client Success Manager | 3.5/5
+
+## Active Opportunities
+- [x] #001 | JLL/Corrigo | Customer Success Executive | Dallas/Chicago/Denver/Phoenix/Atlanta | Score: 4.5/5 | Status: Applied
+  - REQ474576
+  - Comp band: $106K-$120K
+  - Applied: January 2026
+  - Interview guide prepared: JLL-Complete-Interview-Guide-ULTIMATE.md (484 lines)
+  - Full gap package prepared: resume + cover letter + gap narrative + 30-60-90 plan (1,825 lines)
+  - Cover letter submitted
+  - Awaiting response — follow up if >7 days since last contact
+  - Key proof points: Corrigo 238% ROI, 95%+ retention, $8M+ ARR recovery, QBRs with C-suite
+  - 30-60-90 day plan: Phase 1 (baseline health), Phase 2 (deploy QBRs, expansion pipeline), Phase 3 (scale frameworks, $500K+ expansion)
+  - Gap narrative: 70% strategic pivot / 30% burnout recovery — 4 alternate versions prepared
+  - Also explored: Lowe's Field Merchant, nonprofit roles (AHA, Per Scholas, AidKit) — secondary targets
+
+## Processed

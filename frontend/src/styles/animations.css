@@ -1,0 +1,66 @@
+/* ============================================================
+   MOTION SYSTEM — custom curves only, never ease/linear
+   Curves: expo-out, quart-out, expo-in-out (top-design spec)
+   ============================================================ */
+
+:root {
+    --ease-expo-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-quart-out: cubic-bezier(0.25, 1, 0.5, 1);
+    --ease-expo-inout: cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+@keyframes neon-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+@keyframes glow-intensify {
+    from { box-shadow: 0 0 5px currentColor; }
+    to { box-shadow: 0 0 20px currentColor; }
+}
+
+@keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+}
+
+/* Card entrance choreography — slide up + fade with expo-out */
+@keyframes card-enter {
+    from {
+        opacity: 0;
+        transform: translateY(24px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Grid materialization — lines draw in */
+@keyframes grid-materialize {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate-pulse {
+    animation: neon-pulse 3s infinite var(--ease-expo-inout);
+}
+
+.animate-glow:hover {
+    animation: glow-intensify 0.3s forwards;
+}
+
+/* Staggered entrance — applied via inline animation-delay */
+.card-enter {
+    opacity: 0;
+    animation: card-enter 0.7s var(--ease-expo-out) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .card-enter,
+    .animate-pulse,
+    .animate-glow {
+        animation: none !important;
+        opacity: 1 !important;
+    }
+}

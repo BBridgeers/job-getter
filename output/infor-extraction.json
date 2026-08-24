@@ -1,0 +1,89 @@
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:BROWSER_USE_API_KEY}': BROWSER_USE_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:BROWSER_USE_API_KEY}': BROWSER_USE_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Warning: Unknown toolsets: agency_agents
+⚠️  Reached maximum iterations (1). Requesting summary...
+```json
+{
+  "title": "Consultant, MES Project Implementation",
+  "company": "Infor",
+  "location": "Dallas, TX (on-site 3 days/week)",
+  "match_score": 28,
+  "listing_url": "https://www.linkedin.com/jobs/view/consultant-mes-project-implementation-at-infor-4423240670",
+  "application_url": "https://www.linkedin.com/jobs/view/consultant-mes-project-implementation-at-infor-4423240670",
+  "summary_bullets": [
+    "Entry-level implementation consultant role configuring Infor MES (Manufacturing Execution Systems) for manufacturing clients — software install, solution configuration, integration, verification, and Go Live support.",
+    "Hands-on technical delivery: C# coding, SQL/database concepts, and translating shop-floor requirements into system configurations, with 10-20% travel.",
+    "Customer-facing project delivery within a small team, collaborating with a Solution Architect and managing client confidence through Go Lives."
+  ],
+  "company_overview": "Infor is a global enterprise cloud software leader serving 60,000+ organizations in industry-specific markets (manufacturing, distribution, healthcare, etc.). It builds complete industry suites with a user-experience-first, data-science-driven approach. Large, established, and stable — a legitimate enterprise vendor, not a startup.",
+  "role_insights": "This is a technical implementation role, not a customer-success or account-management role. The core work is configuring MES software, writing C#, and working with SQL — hands-on delivery engineering. The 'customer-facing' language is about project delivery and Go Live support, not relationship ownership, expansion, or renewals. It is explicitly listed as Entry level, which is a hard mismatch for a 12-year enterprise veteran.",
+  "key_requirements": [
+    "Degree or real work experience in computing, business information systems, manufacturing engineering, or manufacturing technology.",
+    "Hands-on software configuration experience plus C# coding and basic SQL/database understanding.",
+    "Exposure to manufacturing environments (IT apprentice or factory floor) and willingness to work 3 days/week on-site in Dallas with 10-20% travel."
+  ],
+  "salary_intel": "Not disclosed in the posting. Entry-level implementation consultant roles at Infor in Dallas typically land in the $70K-$95K base range, well below Blake's enterprise CSM/AM/Client Partner comp expectations. No bonus or OTE structure indicated.",
+  "application_strategy": "AUTO-REJECT — do not apply. This posting is explicitly Entry level, which triggers Blake's hard auto-reject rule. It is also a hands-on C#/SQL implementation engineering role, not a CSM/AM/Implementation Consultant role in Blake's sense (enterprise relationship ownership and adoption). Applying would be a career regression and a poor use of time. Skip and reallocate effort to senior CSM/AM/Client Partner roles.",
+  "red_flags": [
+    "AUTO-REJECT: seniority is explicitly 'Entry level' — a hard disqualifier per Blake's rules.",
+    "Core requirements are C# coding and SQL — Blake's stack is Salesforce, Gainsight, Salesloft, MEDDIC, Challenger; zero technical overlap.",
+    "Requires manufacturing shop-floor exposure and 3 days/week on-site in Dallas — Blake's target is DFW + Remote with flexible comp, and he has no manufacturing domain background.",
+    "No salary transparency, and entry-level comp would be a significant step down from Blake's $3.75M-$7.2M revenue-ownership track record."
+  ],
+  "cultural_fit": "Infor's culture emphasizes 'Principled Entrepreneurship' and 'Respect' — values-driven, customer-centric delivery. That part aligns with Blake's enterprise consulting ethos. But the role's day-to-day is technical configuration and coding, not the strategic relationship and adoption work Blake excels at. Cultural values may align, but the functional fit does not.",
+  "competitive_landscape": "This role will attract early-career candidates: recent grads in MIS/manufacturing engineering, IT apprentices, and junior consultants with 0-3 years of C#/SQL experience. Blake would be competing against candidates who are cheaper, more technically current, and for whom entry-level is a step up, not a step down. He has no structural advantage in this pool.",
+  "skills_gap": "Hard gaps: C# development, SQL/database work, MES/manufacturing domain knowledge, hands-on software installation and configuration. Soft gaps: none — Blake's client-facing delivery, stakeholder management, and Go Live support instincts are strong. But the hard technical gaps are disqualifying for a role whose core is coding and configuration.",
+  "network_leverage": "Minimal. Blake's network is enterprise SaaS CSM/AM/consulting — Salesforce, Gainsight, Salesloft ecosystems. Infor MES is a manufacturing-operations niche with little overlap. No warm-intro path is apparent, and investing in one for an entry-level role is not worth the effort.",
+  "decision_timeline": "Immediate — reject now. No further research, tailoring, or outreach warranted. The entry-level flag alone closes the case; the technical mismatch confirms it.",
+  "career_trajectory": "Backward. Blake is a 12-year enterprise veteran targeting senior CSM/AM/Implementation Consultant/Client Partner roles with revenue ownership. An entry-level MES coding role would reset his trajectory, underprice his experience, and move him away from the relationship-driven enterprise work where his $3.75M-$7.2M wins live.",
+  "resume_keywords": [
+    "Manufacturing Execution Systems (MES)",
+    "C# development",
+    "SQL and database concepts",
+    "Software configuration and integration",
+    "Go Live support and project delivery"
+  ],
+  "resume_summary": "Not applicable — auto-reject. No resume tailoring should be performed for this role. Blake's enterprise CSM/AM profile (Salesforce, Gainsight, Salesloft, MEDDIC, Challenger, $3.75M-$7.2M revenue ownership) is the wrong instrument for an entry-level C#/SQL MES implementation role.",
+  "cover_letter": "Not applicable — auto-reject. Generating a cover letter for an entry-level technical role would misrepresent Blake's seniority and waste effort better spent on senior CSM/AM/Client Partner opportunities.",
+  "why_me_bullets": [
+    "Blake's customer-facing delivery and Go Live support instincts transfer conceptually, but the role's core is C#/SQL configuration, which he does not do.",
+    "His enterprise stakeholder management and client-confidence building are strong, but they are overkill for an entry-level seat.",
+    "No manufacturing domain background — the JD's shop-floor requirement is unmet."
+  ],
+  "why_them_bullets": [
+    "Infor is a legitimate, stable enterprise vendor with a values-driven culture (Principled Entrepreneurship, Respect).",
+    "The MES practice is a real, growing manufacturing niche with long-term demand.",
+    "Dallas location matches Blake's DFW geography, though the 3-day on-site requirement conflicts with his remote preference."
+  ],
+  "interview_prep": [
+    "Not applicable — auto-reject. No interview prep should be invested.",
+    "If Blake were ever to reconsider, the screen would probe C# coding ability and SQL fundamentals — areas he would need to build from scratch.",
+    "The manufacturing shop-floor questions would expose the domain gap immediately."
+  ],
+  "star_hooks": "Not applicable — auto-reject. Blake's STAR bank (112% quota at Yooz, $3.75M at Clear Tech, $7.2M at VCE/DELL EMC, 131-135% at HPE) is built for enterprise CSM/AM narratives, not entry-level MES implementation.",
+  "talking_points": [
+    "This role is entry-level and technically misaligned (C#/SQL/MES) — a hard auto-reject per Blake's rules.",
+    "Blake's time is better spent on senior CSM/AM/Implementation Consultant/Client Partner roles where his revenue-ownership track record is the differentiator."
+  ],
+  "questions_to_ask": [
+    "None — auto-reject. No questions warranted for a role that fails the entry-level and technical-fit gates.",
+    "If reconsidering, the only question would be whether Infor has senior CSM or enterprise account roles in DFW — but that is a separate search, not this posting."
+  ],
+  "recruiter_email": null,
+  "plan_30_60_90": "Not applicable — auto-reject. No 30-60-90 plan should be built for an entry-level technical role that Blake will not pursue.",
+  "soul_score": 20,
+  "pocket_score": 15,
+  "path_score": 10,
+  "final_score": 28
+}
+```
+
+session_id: 20260823_054605_2176e0
