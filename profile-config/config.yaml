@@ -1,0 +1,581 @@
+model:
+  default: glm-5.2
+  provider: ollama-cloud
+  base_url: https://ollama.com/v1
+  aliases:
+    ling-flash: openrouter/inclusionai/ling-3.0-flash:free
+    laguna-s: openrouter/poolside/laguna-s-2.1:free
+    laguna-xs: openrouter/poolside/laguna-xs-2.1:free
+    north-mini-code: openrouter/cohere/north-mini-code:free
+    nemotron-safety: openrouter/nvidia/nemotron-3.5-content-safety:free
+    nemotron-ultra: openrouter/nvidia/nemotron-3-ultra-550b-a55b:free
+    nemotron-omni: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+    gemma4-26b: openrouter/google/gemma-4-26b-a4b-it:free
+    gemma4-31b: openrouter/google/gemma-4-31b-it:free
+    lyria-pro: openrouter/google/lyria-3-pro-preview
+    lyria-clip: openrouter/google/lyria-3-clip-preview
+    nemotron-super: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+    or-free: openrouter/openrouter/free
+    nemotron-nano: openrouter/nvidia/nemotron-3-nano-30b-a3b:free
+    nemotron-vl: openrouter/nvidia/nemotron-nano-12b-v2-vl:free
+    nemotron-9b: openrouter/nvidia/nemotron-nano-9b-v2:free
+    gptoss20b: openrouter/openai/gpt-oss-20b:free
+    grok-4.5: opencode-go/grok-4.5
+    gpt-5.6-luna: opencode-go/gpt-5.6-luna
+    glm-5.2: opencode-go/glm-5.2
+    glm-5.1: opencode-go/glm-5.1
+    glm-5: opencode-go/glm-5
+    kimi-k3: opencode-go/kimi-k3
+    kimi-k2.7-code: opencode-go/kimi-k2.7-code
+    kimi-k2.6: opencode-go/kimi-k2.6
+    kimi-k2.5: opencode-go/kimi-k2.5
+    deepseek-v4-pro: opencode-go/deepseek-v4-pro
+    deepseek-v4-flash: opencode-go/deepseek-v4-flash
+    mimo-v2.5: opencode-go/mimo-v2.5
+    mimo-v2.5-pro: opencode-go/mimo-v2.5-pro
+    mimo-v2-pro: opencode-go/mimo-v2-pro
+    mimo-v2-omni: opencode-go/mimo-v2-omni
+    hy3: opencode-go/hy3
+    hy3-preview: opencode-go/hy3-preview
+    minimax-m3: opencode-go/minimax-m3
+    minimax-m2.7: opencode-go/minimax-m2.7
+    minimax-m2.5: opencode-go/minimax-m2.5
+    qwen3.8-max: opencode-go/qwen3.8-max
+    qwen3.7-max: opencode-go/qwen3.7-max
+    qwen3.7-plus: opencode-go/qwen3.7-plus
+    qwen3.6-plus: opencode-go/qwen3.6-plus
+    qwen3.5-plus: opencode-go/qwen3.5-plus
+    nvidia-lightning-30b: nvidia/nvidia/nemotron-3.5-lightning-30b-a3b
+    nvidia-ultra-550b: nvidia/nvidia/nemotron-3-ultra-550b-a55b
+    nvidia-super-120b: nvidia/nvidia/nemotron-3-super-120b-a12b
+    nvidia-nano-30b: nvidia/nvidia/nemotron-3-nano-30b-a3b
+    nvidia-nano-omni: nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
+    nvidia-vl-12b: nvidia/nvidia/nemotron-nano-12b-v2-vl
+    nvidia-nano-8b: nvidia/nvidia/llama-3.1-nemotron-nano-8b-v1
+    nvidia-vl-8b: nvidia/nvidia/llama-3.1-nemotron-nano-vl-8b-v1
+    nvidia-super-49b: nvidia/nvidia/llama-3.3-nemotron-super-49b-v1
+    nvidia-super-49b-v1.5: nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5
+    nvidia-nano-9b: nvidia/nvidia/nvidia-nemotron-nano-9b-v2
+    nvidia-glm-5.2: nvidia/z-ai/glm-5.2
+    nvidia-step-3.7: nvidia/stepfun-ai/step-3.7-flash
+    nvidia-minimax-m3: nvidia/minimaxai/minimax-m3
+    nvidia-inkling: nvidia/thinkingmachines/inkling
+    nvidia-laguna-xs: nvidia/poolside/laguna-xs-2.1
+    nvidia-muse-glimmer: nvidia/meta/muse-glimmer-30b
+    nvidia-llama-70b: nvidia/meta/llama-3.3-70b-instruct
+    nvidia-llama-guard: nvidia/meta/llama-guard-4-12b
+    nvidia-mistral-nemo: nvidia/mistralai/mistral-nemotron
+    nvidia-gpt-oss-20b: nvidia/openai/gpt-oss-20b
+    nvidia-gpt-oss-120b: nvidia/openai/gpt-oss-120b
+    nvidia-gemma-31b: nvidia/google/gemma-4-31b-it
+    nvidia-diffusiongemma: nvidia/google/diffusiongemma-26b-a4b-it
+    nvidia-safety-guard: nvidia/nvidia/llama-3.1-nemotron-safety-guard-8b-v3
+    nvidia-content-safety: nvidia/nvidia/llama-3.1-nemoguard-8b-content-safety
+    nvidia-topic-control: nvidia/nvidia/llama-3.1-nemoguard-8b-topic-control
+    nvidia-content-safety-v2: nvidia/nvidia/nemotron-3.5-content-safety
+    groq-llama3-8b-instant: groq/groq/llama-3.1-8b-instant
+    groq-llama3-70b: groq/groq/llama-3.3-70b-versatile
+    groq-llama4-scout: groq/groq/meta-llama/llama-4-scout-17b-16e-instruct
+    groq-gpt-oss-20b: groq/groq/openai/gpt-oss-20b
+    groq-gpt-oss-120b: groq/groq/openai/gpt-oss-120b
+    groq-qwen3-32b: groq/groq/qwen/qwen3-32b
+    groq-kimi-k2: groq/groq/moonshotai/kimi-k2-instruct
+    groq-whisper-large-v3: groq/groq/whisper-large-v3
+    groq-whisper-large-v3-turbo: groq/groq/whisper-large-v3-turbo
+    groq-prompt-guard-2-86m: groq/groq/prompt-guard-2-86m
+    groq-gpt-oss-safeguard-20b: groq/groq/openai/gpt-oss-safeguard-20b
+    groq-compound: groq/groq/groq/compound
+    groq-compound-mini: groq/groq/groq/compound-mini
+providers:
+  ollama:
+    base_url: https://ollama.com/v1
+    transport: chat_completions
+    key_env: OLLAMA_API_KEY
+  Cloudflare:
+    base_url: https://api.cloudflare.com/client/v4/accounts/5937852c8c4eb8691a4c8b4ed86eb1f9/ai/v1
+    key_env: CLOUDFLARE_API_TOKEN
+  groq:
+    base_url: https://api.groq.com/openai/v1
+    transport: chat_completions
+    key_env: GROQ_API_KEY
+fallback_providers:
+  - provider: opencode-go
+    base_url: https://opencode.ai/zen/go/v1
+    model: glm-5.2
+    label: glm-5.2-opencode-go
+  - provider: openrouter
+    base_url: https://openrouter.ai/api/v1
+    model: nvidia/nemotron-3-ultra-550b-a55b:free
+    label: nemotron-ultra-openrouter
+  - provider: deepseek
+    base_url: https://api.deepseek.com
+    model: deepseek-v4-pro
+    label: deepseek-v4-pro-direct
+credential_pool_strategies:
+  deepseek: fill_first
+toolsets:
+  - hermes-cli
+agent:
+  max_turns: 90
+  gateway_timeout: 1800
+  restart_drain_timeout: 60
+  service_tier: ''
+  tool_use_enforcement: auto
+  verify_on_stop: false
+  gateway_timeout_warning: 900
+  gateway_notify_interval: 600
+  reasoning_effort: high
+  personalities:
+    technical_teacher: Be a precise, patient technical teacher. Give the answer first,
+      then explain clearly with brief steps and practical examples. Define jargon
+      briefly. Use safe, reversible steps and verification commands.
+    technical_concise: Be a precise technical assistant. Give the answer first. Keep
+      responses concise, actionable, and free of filler. Use short steps and verification
+      commands.
+    red_team_leader: Be a decisive Red Team Leader for explicitly authorized systems.
+      Define scope, identify attack paths and control gaps, rank evidence-based risks,
+      and provide safe validation, remediation, and verification. Never claim unverified
+      access or success.
+    coding_quant: Be a rigorous coding quant. Convert assumptions into models, algorithms,
+      and testable code. Address complexity, edge cases, numerical stability, uncertainty,
+      and validation. Never fabricate data, results, performance claims, or financial
+      certainty.
+terminal:
+  backend: local
+  modal_mode: auto
+  cwd: /home/yoga
+  font_family: Cascadia Code
+  timeout: 600
+  env_passthrough: []
+  shell_init_files: []
+  auto_source_bashrc: true
+  docker_image: nikolaik/python-nodejs:python3.11-nodejs20
+  docker_forward_env: []
+  singularity_image: docker://nikolaik/python-nodejs:python3.11-nodejs20
+  modal_image: nikolaik/python-nodejs:python3.11-nodejs20
+  daytona_image: nikolaik/python-nodejs:python3.11-nodejs20
+  container_cpu: 1
+  container_memory: 5120
+  container_disk: 51200
+  container_persistent: true
+  docker_volumes: []
+  docker_mount_cwd_to_workspace: false
+  persistent_shell: true
+browser:
+  inactivity_timeout: 180
+  command_timeout: 60
+  record_sessions: false
+  allow_private_urls: false
+  cdp_url: ''
+  camofox:
+    managed_persistence: true
+  cloud_provider: playwright_mcp
+  use_gateway: false
+checkpoints:
+  enabled: true
+  max_snapshots: 50
+file_read_max_chars: 200000
+tool_loop_guardrails:
+  warnings_enabled: true
+  hard_stop_enabled: false
+  warn_after:
+    exact_failure: 2
+    same_tool_failure: 3
+    idempotent_no_progress: 2
+  hard_stop_after:
+    exact_failure: 5
+    same_tool_failure: 8
+    idempotent_no_progress: 5
+compression:
+  enabled: true
+  threshold: 0.75
+  target_ratio: 0.2
+  protect_last_n: 30
+  protect_first_n: 3
+bedrock:
+  region: ''
+  discovery:
+    enabled: false
+    provider_filter: []
+    refresh_interval: 3600
+  guardrail:
+    guardrail_identifier: ''
+    guardrail_version: ''
+    stream_processing_mode: async
+    trace: disabled
+auxiliary:
+  vision:
+    provider: gemini
+    model: gemini-3.6-flash
+    timeout: 120
+    download_timeout: 30
+  web_extract:
+    provider: openrouter
+    model: google/gemma-4-26b-a4b-it:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 360
+  compression:
+    provider: openrouter
+    model: nvidia/nemotron-3-super-120b-a12b:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 120
+  skills_hub:
+    provider: openrouter
+    model: google/gemma-4-26b-a4b-it:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 30
+  approval:
+    provider: openrouter
+    model: google/gemma-4-31b-it:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 30
+  mcp:
+    provider: openrouter
+    model: qwen/qwen3-next-80b-a3b-instruct:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 30
+  title_generation:
+    provider: openrouter
+    model: google/gemma-4-31b-it:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 30
+  session_search:
+    provider: openrouter
+    model: qwen/qwen3-coder:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 30
+    extra_body: {}
+    max_concurrency: 3
+  flush_memories:
+    provider: openrouter
+    model: nvidia/nemotron-3-nano-30b-a3b:free
+    base_url: https://openrouter.ai/api/v1
+    api_key: ${env:OPENROUTER_API_KEY}
+    timeout: 30
+    extra_body: {}
+display:
+  compact: false
+  personality: ''
+  resume_display: full
+  busy_input_mode: steer
+  bell_on_complete: false
+  show_reasoning: false
+  streaming: true
+  final_response_markdown: strip
+  inline_diffs: true
+  show_cost: true
+  skin: default
+  user_message_preview:
+    first_lines: 2
+    last_lines: 2
+  interim_assistant_messages: true
+  tool_progress_command: false
+  tool_preview_length: 0
+  pet:
+    enabled: false
+    slug: ''
+dashboard:
+  theme: slate
+privacy:
+  redact_pii: true
+tts:
+  provider: piper
+  edge:
+    voice: en-US-AriaNeural
+  elevenlabs:
+    voice_id: pNInz6obpgDQGcFmaJgB
+    model_id: eleven_multilingual_v2
+  openai:
+    model: gpt-4o-mini-tts
+    voice: alloy
+  gemini:
+    model: gemini-2.5-flash-preview-tts
+    voice: Algieba
+    persona_prompt_file: /home/yoga/.hermes/tts/algieba-voice.md
+  xai:
+    voice_id: eve
+    language: en
+    sample_rate: 24000
+    bit_rate: 128000
+  mistral:
+    model: voxtral-mini-tts-2603
+    voice_id: c69964a6-ab8b-4f8a-9465-ec0925096ec8
+  neutts:
+    ref_audio: ''
+    ref_text: ''
+    model: neuphonic/neutts-air-q4-gguf
+    device: cpu
+  piper:
+    voice: en_US-ryan-high
+  use_gateway: false
+  speed: 1.3
+stt:
+  enabled: true
+  provider: groq
+  local:
+    model: base
+    language: 'English '
+  groq:
+    model: whisper-large-v3-turbo
+  openai:
+    model: whisper-1
+  mistral:
+    model: voxtral-mini-latest
+  use_gateway: false
+voice:
+  record_key: ctrl+b
+  max_recording_seconds: 120
+  auto_tts: true
+  beep_enabled: true
+  silence_threshold: 200
+  silence_duration: 3
+human_delay:
+  mode: 'off'
+  min_ms: 800
+  max_ms: 2500
+context:
+  engine: compressor
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 5000
+  user_char_limit: 5000
+  provider: ''
+delegation:
+  model: ''
+  provider: ''
+  base_url: ''
+  api_key: ''
+  inherit_mcp_toolsets: true
+  max_iterations: 250
+  reasoning_effort: ''
+  max_concurrent_children: 6
+  max_spawn_depth: 1
+  orchestrator_enabled: true
+prefill_messages_file: ''
+skills:
+  external_dirs: []
+  template_vars: true
+  inline_shell: false
+  inline_shell_timeout: 10
+timezone: America/Chicago
+discord:
+  require_mention: true
+  free_response_channels: ''
+  allowed_channels: ''
+  auto_thread: true
+  reactions: true
+  server_actions: ''
+approvals:
+  mode: smart
+  timeout: 60
+  cron_mode: deny
+command_allowlist:
+  - stop/restart system service
+  - kill hermes/gateway process (self-termination)
+  - overwrite system file via redirection
+  - command parser limit or malformed executable payload
+  - git reset --hard (destroys uncommitted changes)
+  - delete in root path
+  - in-place edit of Hermes config/env
+  - hermes update (restarts gateway, kills running agents)
+  - script execution via -e/-c flag
+  - script execution via heredoc
+  - force kill processes
+  - stop/restart hermes gateway (kills running agents)
+quick_commands:
+  ermie-v4pro: /provider custom; /base_url https://ollama.com/v1; /model deepseek-v4-pro;
+    /personality technical
+  ermie-v4flash: /provider custom; /base_url https://ollama.com/v1; /model deepseek-v4-flash
+  ermie-qwen35: /provider custom; /base_url https://ollama.com/v1; /model qwen3.5:397b;
+    /personality technical
+  ermie-k27code: /provider custom; /base_url https://ollama.com/v1; /model kimi-k2.7-code;
+    /personality technical
+  ermie-k26: /provider custom; /base_url https://ollama.com/v1; /model kimi-k2.6
+  ermie-k25: /provider custom; /base_url https://ollama.com/v1; /model kimi-k2.5
+  ermie-mistral: /provider custom; /base_url https://ollama.com/v1; /model mistral-large-3:675b
+  ermie-gptoss: /provider custom; /base_url https://ollama.com/v1; /model gpt-oss:120b
+  ermie-gptoss20: /provider custom; /base_url https://ollama.com/v1; /model gpt-oss:20b
+  ermie-nemoultra: /provider custom; /base_url https://ollama.com/v1; /model nemotron-3-ultra
+  ermie-nemosuper: /provider custom; /base_url https://ollama.com/v1; /model nemotron-3-super
+  ermie-nemonano: /provider custom; /base_url https://ollama.com/v1; /model nemotron-3-nano:30b
+  ermie-m3: /provider custom; /base_url https://ollama.com/v1; /model minimax-m3
+  ermie-m27: /provider custom; /base_url https://ollama.com/v1; /model minimax-m2.7
+  ermie-m25: /provider custom; /base_url https://ollama.com/v1; /model minimax-m2.5
+  ermie-glm52: /provider custom; /base_url https://ollama.com/v1; /model glm-5.2
+  ermie-glm51: /provider custom; /base_url https://ollama.com/v1; /model glm-5.1
+  ermie-gemma4: /provider custom; /base_url https://ollama.com/v1; /model gemma4:31b
+  ermie-home: /provider deepseek; /model deepseek-v4-pro; /personality technical
+hooks_auto_accept: false
+security:
+  allow_private_urls: false
+  redact_secrets: true
+  tirith_enabled: true
+  tirith_path: tirith
+  tirith_timeout: 5
+  tirith_fail_open: true
+  website_blocklist:
+    enabled: false
+    domains: []
+    shared_files: []
+cron:
+  wrap_response: true
+code_execution:
+  mode: project
+logging:
+  level: INFO
+  max_size_mb: 5
+  backup_count: 3
+model_catalog:
+  ttl_hours: 8760
+  providers:
+    openrouter:
+      url: file:///home/yoga/.hermes/cache/model_catalog_custom.json
+    opencode-go:
+      url: file:///home/yoga/.hermes/cache/model_catalog_custom.json
+network:
+  force_ipv4: false
+sessions:
+  auto_prune: false
+  retention_days: 90
+  vacuum_after_prune: true
+  min_interval_hours: 24
+onboarding:
+  seen:
+    busy_input_prompt: true
+    tool_progress_prompt: true
+_config_version: 38
+mcp_servers:
+  playwright:
+    url: http://127.0.0.1:8931/mcp
+    timeout: 120
+    connect_timeout: 30
+  browser_harness:
+    command: /usr/bin/python3
+    args:
+      - /home/yoga/.hermes/scripts/browser_harness_mcp.py
+    env:
+      BU_CDP_URL: http://127.0.0.1:9222
+      BROWSER_USE_API_KEY: ${env:BROWSER_USE_API_KEY}
+    timeout: 120
+    connect_timeout: 30
+  browser_use:
+    command: /usr/bin/python3
+    args:
+      - /home/yoga/.hermes/scripts/browser_use_mcp.py
+    env:
+      BROWSER_USE_API_KEY: ${env:BROWSER_USE_API_KEY}
+    timeout: 300
+    connect_timeout: 60
+  camofox:
+    command: npx
+    args:
+      - -y
+      - camofox-mcp@latest
+    env:
+      CAMOFOX_URL: http://localhost:9377
+      CAMOFOX_TIMEOUT: '30000'
+      CAMOFOX_DEFAULT_USER_ID: default
+      CAMOFOX_AUTO_SAVE: 'true'
+    timeout: 120
+    connect_timeout: 30
+platform_toolsets:
+  cli:
+    - agency_agents
+    - bfl
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - context_engine
+    - cronjob
+    - delegation
+    - file
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - terminal
+    - todo
+    - tts
+    - video
+    - video_gen
+    - vision
+    - web
+known_plugin_toolsets:
+  cli:
+    - a2a
+    - agency_agents
+    - spotify
+known_builtin_toolsets:
+  cli:
+    - bfl
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - context_engine
+    - cronjob
+    - delegation
+    - discord
+    - discord_admin
+    - file
+    - homeassistant
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - spotify
+    - stt
+    - terminal
+    - todo
+    - tts
+    - video
+    - video_gen
+    - vision
+    - web
+    - x_search
+    - yuanbao
+video_gen:
+  provider: ''
+  model: ''
+  use_gateway: false
+plugins:
+  enabled:
+    - agency-agents-router
+goals:
+  max_turns: 50
+
+# ── Fallback Model ────────────────────────────────────────────────────
+# Automatic provider failover when primary is unavailable.
+# Uncomment and configure to enable. Triggers on rate limits (429),
+# overload (529), service errors (503), or connection failures.
+#
+# Supported providers:
+#   openrouter   (OPENROUTER_API_KEY)  — routes to any model
+#   openai-codex (OAuth — hermes auth) — OpenAI Codex
+#   nous         (OAuth — hermes auth) — Nous Portal
+#   zai          (ZAI_API_KEY)         — Z.AI / GLM
+#   kimi-coding  (KIMI_API_KEY)        — Kimi / Moonshot
+#   kimi-coding-cn (KIMI_CN_API_KEY)   — Kimi / Moonshot (China)
+#   minimax      (MINIMAX_API_KEY)     — MiniMax
+#   minimax-cn   (MINIMAX_CN_API_KEY)  — MiniMax (China)
+#   bedrock      (AWS IAM / boto3)     — AWS Bedrock (Converse API)
+#
+# For custom OpenAI-compatible endpoints, add base_url and key_env.
+#
+# fallback_model:
+#   provider: openrouter
+#   model: anthropic/claude-sonnet-4
+
+telegram:
+  require_mention: false
+  allowed_chats:
+    - YOUR_CHAT_ID

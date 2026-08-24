@@ -6,9 +6,6 @@ __pycache__/
 # Build output
 frontend/dist/
 
-# Database
-backend/jobs.db
-
 # Environment & secrets
 .env
 *.env
