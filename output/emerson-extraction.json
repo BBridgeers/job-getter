@@ -1,0 +1,88 @@
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:BROWSER_USE_API_KEY}': BROWSER_USE_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:BROWSER_USE_API_KEY}': BROWSER_USE_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Warning: Unknown toolsets: agency_agents
+⚠️  Reached maximum iterations (1). Requesting summary...
+```json
+{
+  "title": "Customer Success Manager - Remote",
+  "company": "Emerson",
+  "location": "Austin, TX (Remote)",
+  "match_score": 80,
+  "listing_url": "https://www.linkedin.com/jobs/view/customer-success-manager-remote-at-emerson-4415322142",
+  "application_url": "https://www.linkedin.com/jobs/view/customer-success-manager-remote-at-emerson-4415322142",
+  "summary_bullets": [
+    "Own end-to-end customer lifecycle for Aerospace, Defense, and US Government accounts on NI test & measurement products — onboarding, adoption, expansion, and renewal.",
+    "Drive proficiency programs, hyper-care support, QBRs, and executive engagement to accelerate value realization and reduce churn risk.",
+    "Partner with sales on whitespace expansion and renewal positioning; 30% travel; US Citizenship required."
+  ],
+  "company_overview": "Emerson is a global leader in automation technology and software. This role sits in the NI (National Instruments) business — test & measurement hardware and software for engineering, aerospace, defense, and government customers. Emerson acquired NI in 2023, folding it into its Test & Measurement segment. The CSM function here is technical: customers are engineers deploying measurement systems, not SaaS end-users.",
+  "role_insights": "This is a technical CSM role, not a SaaS CSM role. The craft (adoption, expansion, renewal, QBRs, executive engagement) is identical to Blake's 12+ years, but the product domain is test & measurement hardware/software for A&D/Gov accounts. The 'proficiency & self-service' and 'adoption' sections read like enablement and deployment work Blake has done, but the underlying product is engineering tooling, not business software. The degree requirement (engineering/math/physics/technology) and T&M experience requirement are hard gates that will likely screen out a BBA Finance candidate at ATS unless the application is positioned aggressively around transferable CSM craft.",
+  "key_requirements": [
+    "Bachelor's degree in engineering, math, physics, or technology — Blake holds a BBA in Finance, a stated hard requirement and likely ATS knockout.",
+    "4+ years technical/customer-facing experience plus direct experience with Test & Measurement products and systems — Blake has the customer-facing tenure but zero T&M domain exposure.",
+    "US Citizenship required, 30% travel, enterprise customers in technical environments — Blake is a US citizen and has deep enterprise experience, but not in A&D/Gov technical environments."
+  ],
+  "salary_intel": "$135,000 - $153,000 base plus variable bonus. Strong for a CSM title — above the typical SaaS CSM band in Texas and competitive with senior/strategic CSM roles. Remote with 30% travel. This is a genuine senior IC CSM comp package, not a junior role.",
+  "application_strategy": "Apply only if Blake is willing to make a deliberate domain pivot into test & measurement / A&D. The CSM craft transfers cleanly, but the degree and T&M requirements are hard gates. Strategy: lead the resume with adoption/expansion/renewal metrics (112% quota, $3.75M, $7.2M) and reframe 'technical environments' as enterprise software deployments. Do NOT fabricate T&M experience. If applying, target the recruiter directly with a note acknowledging the domain shift and emphasizing the transferable CSM engine — otherwise the ATS will likely reject on degree alone. Realistic expectation: stretch application, low probability without a warm referral.",
+  "red_flags": [
+    "Hard degree requirement (engineering/math/physics/technology) — BBA Finance does not qualify and is a likely ATS auto-reject.",
+    "Test & Measurement products and systems experience is a stated requirement — Blake has none; this is a domain pivot, not a lateral move.",
+    "200+ applicants already, and Aerospace/Defense/Government accounts may carry clearance or domain-specific expectations not stated in the posting."
+  ],
+  "cultural_fit": "Emerson/NI is an engineering-led culture — customers are engineers, and the CSM is expected to speak the language of test systems, software deployment, and on-prem/cloud IT. Blake's enterprise SaaS polish (QBRs, executive engagement, MEDDIC, Challenger) fits the commercial motion, but the technical fluency gap is real. The 30% travel and A&D/Gov account base suggest a structured, process-heavy environment rather than a scrappy SaaS startup. Moderate fit: strong on commercial craft, weak on technical domain.",
+  "competitive_landscape": "The ideal candidate is a former NI applications engineer or a CSM from Keysight, Tektronix, MathWorks, Ansys, Siemens EDA, or a defense contractor (Lockheed, Raytheon, Northrop) who moved into customer success. Blake competes against candidates with engineering degrees and T&M domain fluency. His differentiator is the pure CSM engine — adoption velocity, expansion, renewal, executive QBRs — which many technical candidates lack. The 200+ applicant count suggests heavy competition; a warm referral is the only realistic path to the top of the pile.",
+  "skills_gap": "Test & Measurement products and systems (NI hardware/software) — complete gap. Software architecture, cloud environments, and on-premises IT landscapes — partial (SaaS deployment yes, engineering tooling no). Aerospace/Defense/Government customer experience — gap. Engineering/math/physics/technology degree — hard gap. Salesforce/CRM, stakeholder management, training/workshops, and expansion/renewal craft — strong match.",
+  "network_leverage": "No known Emerson or NI connections in Blake's network. Best path: search LinkedIn for Emerson NI CSM leaders, the hiring manager, and the recruiter on this posting; target a peer CSM at Emerson for a referral. A&D/Gov is a referral-driven market — cold applications to 200+ applicant postings rarely surface. If Blake has any Baylor or prior VCE/DELL EMC contacts now in the defense or industrial automation space, those are the highest-value warm intros.",
+  "decision_timeline": "Posted ~3 days ago (approx Aug 20, 2026) with 200+ applicants already. Emerson typically moves within 2-4 weeks for a role this senior. If Blake wants to pursue, the application and any outreach should go out within 48-72 hours to avoid being buried. Expect recruiter screen within 1-2 weeks if the application clears ATS; otherwise assume silent rejection.",
+  "career_trajectory": "A CSM role at Emerson/NI is a lateral title but a domain pivot — from B2B SaaS into industrial automation and test & measurement. It opens the A&D/Gov customer success niche, which is stable, well-compensated, and less crowded than SaaS CS. However, it moves Blake away from the SaaS CS leadership track he has built. If the goal is a senior/strategic CSM or CS leadership role in SaaS, this is a detour. If the goal is a durable, technical, defense-adjacent CSM niche with strong comp, it is a defensible pivot.",
+  "resume_keywords": [
+    "customer success",
+    "adoption and value realization",
+    "expansion and renewal",
+    "QBR and executive engagement",
+    "Salesforce and CRM"
+  ],
+  "resume_summary": "Customer success leader with 12+ years driving adoption, expansion, and renewal across enterprise B2B technology accounts — 112% quota at Yooz, $3.75M at Clear Tech, $7.2M at VCE/DELL EMC, 131-135% at HPE. Deep expertise in onboarding, proficiency enablement, QBRs, and executive stakeholder management, with Salesforce, Gainsight, Salesloft, MEDDIC, and Challenger. Seeking to apply a proven CSM engine to technical, mission-critical customer environments.",
+  "cover_letter": "I'm applying for the Customer Success Manager role because the commercial motion Emerson describes — driving adoption, value realization, expansion, and renewal across enterprise accounts — is exactly the engine I've run for 12 years. At Yooz I delivered 112% of quota; at Clear Tech I grew $3.75M in revenue; at VCE/DELL EMC I managed $7.2M in enterprise accounts. What I bring is a disciplined, metrics-driven CSM craft: structured onboarding, executive QBRs, churn-risk management, and whitespace expansion. I do not come from the test & measurement world, and I won't pretend otherwise. What I offer is the customer-success operating system Emerson can layer onto its technical domain expertise — a leader who turns adoption into renewal and renewal into expansion. I'm a US citizen, comfortable with 30% travel, and ready to earn fluency in NI products the same way I've earned fluency in every platform I've supported.",
+  "why_me_bullets": [
+    "Proven expansion and renewal engine: 112% quota at Yooz, $3.75M at Clear Tech, $7.2M at VCE/DELL EMC, 131-135% at HPE — the exact whitespace and churn-mitigation outcomes this role is measured on.",
+    "Enterprise executive engagement: 12+ years running QBRs, executive reviews, and stakeholder cadences with MEDDIC and Challenger — the 'Sponsors & End Users' section is a direct match.",
+    "Enablement and adoption craft: built onboarding, proficiency, and training programs across multiple SaaS platforms — transferable to NI's proficiency and self-service mandate."
+  ],
+  "why_them_bullets": [
+    "Emerson is a global automation leader with a stable, mission-critical customer base in A&D and government — a durable, high-value CSM niche with strong comp ($135-153K + variable).",
+    "The role is a true end-to-end CSM mandate — onboarding through renewal — not a glorified support or account-management hybrid, which is exactly the strategic scope Blake wants.",
+    "Remote with 30% travel offers the flexibility Blake needs while keeping him close to enterprise customers."
+  ],
+  "interview_prep": [
+    "Prepare a crisp answer for the degree/domain gap: 'I'm a BBA Finance, not an engineer — here's how I've earned technical fluency in every platform I've supported, and here's my 90-day plan to learn NI products.' Do not dodge it.",
+    "Build 3-4 STAR stories mapped to the four JD pillars: proficiency (enablement program you built), adoption (deployment/hyper-care you led), sponsors (QBR that saved or expanded an account), expansion/renewal (churn risk you reversed).",
+    "Research NI's product lines (LabVIEW, TestStand, PXI, CompactRIO) and Emerson's A&D/Gov customer base enough to ask intelligent questions and show genuine domain curiosity."
+  ],
+  "star_hooks": "Use the $3.75M Clear Tech expansion and the 112% Yooz quota as the two anchor stories. For adoption, use a deployment where you drove pre-go-live readiness and hyper-care. For renewal, use a churn-risk account you saved through executive engagement and a QBR. Quantify every story with revenue, adoption velocity, or churn reduction.",
+  "talking_points": [
+    "The CSM craft is domain-agnostic: adoption, expansion, renewal, and executive engagement are the same disciplines whether the product is SaaS or test & measurement — and I've run that engine at 112-135% of quota for a decade.",
+    "I'm a US citizen, comfortable with 30% travel, and I treat technical fluency as a 90-day deliverable, not a prerequisite — I've learned every platform I've ever supported."
+  ],
+  "questions_to_ask": [
+    "What does the first 90 days of success look like for this role, and how is the CSM measured on adoption versus expansion versus renewal?",
+    "How does the NI CSM team partner with the technical/applications engineering side — is there a technical resource paired with each CSM, or is the CSM expected to be the technical expert?"
+  ],
+  "recruiter_email": null,
+  "plan_30_60_90": "Days 0-30: Learn NI product lines (LabVIEW, TestStand, PXI, CompactRIO) and the A&D/Gov account landscape; shadow applications engineers; map each account's adoption and renewal posture; establish cadence with sponsors. Days 31-60: Deliver first QBRs and executive reviews; launch proficiency plans for assigned accounts; identify whitespace and churn signals; build expansion collateral with sales. Days 61-90: Execute first expansion and renewal plays; demonstrate measurable ROI on at least one account; establish a repeatable adoption playbook; present a 90-day value report to leadership.",
+  "soul_score": 72,
+  "pocket_score": 88,
+  "path_score": 70,
+  "final_score": 80
+}
+```
+
+session_id: 20260823_054514_02d226

@@ -1,0 +1,88 @@
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:OPENROUTER_API_KEY}': OPENROUTER_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:BROWSER_USE_API_KEY}': BROWSER_USE_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Config ref '${env:BROWSER_USE_API_KEY}': BROWSER_USE_API_KEY is not set (check ~/.hermes/.env); keeping the literal placeholder
+Warning: Unknown toolsets: agency_agents
+⚠️  Reached maximum iterations (1). Requesting summary...
+```json
+{
+  "title": "Client Success Manager",
+  "company": "Green Irony",
+  "location": "Remote (US)",
+  "match_score": 74,
+  "listing_url": "https://job-boards.greenhouse.io/greenirony/jobs/5126436007",
+  "application_url": "https://job-boards.greenhouse.io/greenirony/jobs/5126436007",
+  "summary_bullets": [
+    "Own the client relationship and delivery across up to 20 concurrent $30-50K engagements (3-8 weeks each), running kickoff-to-hypercare cadence with AI handling documentation overhead.",
+    "Operate from inside Claude as the primary interface — pulling SOW/account context, generating client-facing artifacts (kickoff deck, FRD, UAT guide, weekly status), and keeping Notion current.",
+    "Enforce scope discipline and change-request compliance while spotting follow-on and managed-services revenue, routing expansion opportunities to sales."
+  ],
+  "company_overview": "Green Irony is an AI-native consulting/services firm that runs its own operations (quoting, hiring, delivery, account management) on the same AI stack it implements for clients. A small team of senior US-based engineers ships enterprise-grade integrations in weeks, not months. Fully remote with a stated preference for Raleigh-Durham, NC.",
+  "role_insights": "This is a hybrid Client Success + Delivery/Engagement Manager role, not a pure CSM. The title says Client Success Manager, but the substance is technical project delivery: 15-20 concurrent SOW-driven engagements, FRD authorship, UAT, hypercare, engineering coordination, and scope/change-request enforcement. The 'operate from inside Claude' requirement makes it an AI-native delivery role — the CSM is expected to be a power user of AI tooling, not just a relationship holder. Volume is the role, not a phase.",
+  "key_requirements": [
+    "4+ years technical project management or client delivery at a software services/consulting firm, owning plans, milestones, and engineering coordination across multiple concurrent engagements.",
+    "Working knowledge of Salesforce and/or MuleSoft — enough to speak credibly and spot estimation risk, not deep architecture.",
+    "High-volume, high-context-switching operator comfortable in a Kanban-style, agent-orchestrated model where daily status comes from a scrum agent and project health is a dashboard."
+  ],
+  "salary_intel": "$95,000 - $115,000 base plus performance bonus, medical/dental/vision, 401(k) with generous match, flexible PTO, annual professional development budget, and equipment stipend. This is a mid-level comp band — below typical enterprise CSM/Engagement Manager comp for a 12+ year professional in DFW. Bonus structure is unspecified, which is a negotiation lever.",
+  "application_strategy": "Apply directly via Greenhouse. Lead with the delivery/consulting angle, not pure CS — frame VCE/DELL EMC and HPE as enterprise consulting/delivery experience with client ownership. Emphasize Salesforce depth (10+ years) as the credibility anchor, and position the AI-native workflow (Claude, autonomous agents) as a differentiator most CSM candidates won't have. Do NOT lead with sales quota numbers — this role wants a delivery operator who can hold scope, not a quota-crusher. Target the 'Engagement Manager at a consulting/SI firm' language in the 'even better if' section.",
+  "red_flags": [
+    "Title/comp mismatch: 'Client Success Manager' at $95-115K but the actual work is Engagement/Delivery Manager — the title may understate the role's seniority and the comp may understate its workload (15-20 concurrent engagements is heavy).",
+    "Raleigh-Durham preference: not a hard requirement, but a stated preference could disadvantage a DFW candidate in final selection.",
+    "AI-native dependency: the role is built around operating inside Claude and trusting a scrum agent for status — if the AI tooling underdelivers, the CSM absorbs the coordination burden with no fallback process."
+  ],
+  "cultural_fit": "Strong. Blake is AI-forward to an unusual degree — he built his entire job search on autonomous AI agents — which maps directly to Green Irony's 'we run our own company on the same AI stack we sell' ethos. The 'bias for action, decisive under chaos, act first and analyze second' language matches Blake's operating style exactly. The 'schmoozer with an engine' line is a near-verbatim description of his profile. The only friction is the delivery/PM center of gravity versus Blake's relationship/sales center of gravity.",
+  "competitive_landscape": "This role will attract two pools: (1) traditional CSMs from SaaS who can hold relationships but lack delivery/PM depth, and (2) Engagement/Delivery Managers from consulting/SI firms who can run projects but lack the client-relationship warmth and expansion instinct. Blake sits between the pools — strong client ownership plus enterprise consulting background — but is not a pure delivery manager. His differentiator is the AI-native fluency plus Salesforce depth, which neither pool typically has in combination.",
+  "skills_gap": "MuleSoft is the clearest gap — Blake has Salesforce depth but no stated MuleSoft exposure; the JD only requires 'working knowledge' so this is a soft gap. The bigger gap is formal technical project management: Blake's delivery experience is embedded in enterprise consulting (VCE/DELL EMC, HPE) rather than a titled PM/Engagement Manager role, so he'll need to translate consulting delivery into PM language. FRD/UAT/hypercare artifacts are implementation-consulting vocabulary he can claim from consulting work but should refresh.",
+  "network_leverage": "No direct Green Irony connection identified in the JD. The company is small and AI-native, so the hiring manager is likely a founder or early leader reachable via LinkedIn. Search for Green Irony founders/leadership on LinkedIn and X (AI-native firms are active there), and look for any shared connection through the DFW enterprise tech or AI consulting community. A warm intro from an AI-tooling peer would carry weight given the company's AI-native identity.",
+  "decision_timeline": "Greenhouse posting is live; small AI-native firms typically move fast (2-4 weeks from application to offer) because they run lean and the hiring manager is often the founder. Expect a recruiter screen within 1-2 weeks, a founder/hiring-manager interview focused on delivery volume and AI fluency, and possibly a working session demonstrating Claude-based workflow. No stated deadline in the JD.",
+  "career_trajectory": "This role is a lateral-to-slight-step-down in title and comp for Blake, but a strategic entry into the AI-native services space. If Green Irony grows as its '10x team' thesis suggests, the CSM who owns delivery and expansion could grow into a Head of Client Success or Delivery Lead. The risk is that delivery management becomes a ceiling — the role is explicitly 'volume is the role, not a phase you're trying to grow out of,' which signals the company wants a career delivery operator, not someone angling for a sales/executive track.",
+  "resume_keywords": [
+    "technical project management",
+    "client delivery",
+    "Salesforce",
+    "scope management / change requests",
+    "AI-native workflow (Claude)"
+  ],
+  "resume_summary": "Client Success and delivery leader with 12+ years in enterprise SaaS and technology consulting, owning client relationships and delivery across concurrent engagements. 10+ years of Salesforce depth, MEDDIC and Challenger fluency, and a track record of $7.2M closed at VCE/DELL EMC and 112% quota at Yooz. AI-native operator who runs daily workflow through Claude and autonomous agents — the same stack-first mindset Green Irony sells.",
+  "cover_letter": "Twelve years in enterprise SaaS taught me one thing that matters more than any methodology: the client relationship is the product. I've carried $7.2M in closed revenue at VCE/DELL EMC, held 112% quota at Yooz, and run account portfolios where churn wasn't a metric I tracked — it was a number I refused to let move. Green Irony is the first place I've seen that actually walks the talk on AI-native delivery, and I don't just use Claude — I've built my entire job search engine on autonomous AI agents. I want to run your client portfolio the same way.",
+  "why_me_bullets": [
+    "10+ years of Salesforce depth plus MEDDIC/Challenger fluency — I speak the language credibly and can spot estimation risk the way the JD asks, without needing AI to carry me.",
+    "Enterprise consulting delivery at VCE/DELL EMC and HPE means I've owned plans, milestones, and client relationships across concurrent engagements — the delivery muscle is there even if the title wasn't 'Engagement Manager.'",
+    "I'm already an AI-native operator: my daily workflow runs through Claude and autonomous agents, so 'operate from inside Claude' isn't a learning curve, it's my current state."
+  ],
+  "why_them_bullets": [
+    "Green Irony runs its own company on the stack it sells — that's the only honest proof an AI-native firm can offer, and it's rare.",
+    "The 'schmoozer with an engine' line is the exact profile I've spent 12 years becoming: warm relationships that refer, plus the engine to move work when it stalls.",
+    "A small team delivering like one 10x its size is the kind of leverage I want to be part of — not a 5,000-person org where my impact is a rounding error."
+  ],
+  "interview_prep": [
+    "Prepare a concrete walkthrough of a multi-engagement delivery scenario: how you tracked milestones, flagged risk early, and held scope on a change request without damaging the relationship — use a VCE/DELL EMC or HPE consulting example.",
+    "Be ready to demo or describe your actual Claude/AI workflow in detail — the interviewer will probe whether 'AI-native' is real or a resume line; show the job-getter bot or another agent you've built.",
+    "Prepare for the volume question: 'How do you hold 15-20 concurrent engagements cleanly?' — answer with a system (cadence, dashboard, escalation triggers), not a personality trait."
+  ],
+  "star_hooks": "Situation: enterprise client at VCE/DELL EMC pushing out-of-scope work mid-engagement. Task: hold scope without straining a $7.2M relationship. Action: ran the change request through a structured process, reframed the ask as a follow-on opportunity, and looped in sales. Result: scope held, relationship strengthened, and the out-of-scope work became a paid follow-on — the exact 'spot the next dollar' loop this role measures.",
+  "talking_points": [
+    "I've owned client relationships and delivery across concurrent enterprise engagements — the title was different, but the muscle is the same: plans, milestones, risk flags, and scope discipline.",
+    "I don't just use AI tools; I build and run autonomous agents as my daily workflow — which means I'll adopt your Claude-first operating model faster than any traditional CSM candidate."
+  ],
+  "questions_to_ask": [
+    "How is the performance bonus structured, and what does a CSM who hits all nine measurement criteria actually earn in year one?",
+    "You said volume is the role, not a phase — what does the growth path look like for someone who excels at 20 concurrent engagements and wants to build the delivery function rather than just run it?"
+  ],
+  "recruiter_email": "Not provided in the JD. Green Irony is a small AI-native firm — identify the founder or hiring lead via LinkedIn/X and use a direct outreach message rather than a generic recruiter email. No Greenhouse recruiter contact is published.",
+  "plan_30_60_90": "Days 0-30: Learn the Claude-first operating model end to end, shadow 2-3 live engagements, and establish the Monday status cadence and Notion hygiene. Days 31-60: Take over 8-10 engagements, run first discovery within seven business days on each, and author FRDs with AI while clearing open items before development. Days 61-90: Hold 15-20 concurrent engagements cleanly, enforce scope/change-request compliance on every out-of-scope ask, and surface the first follow-on or managed-services opportunity to sales.",
+  "soul_score": 72,
+  "pocket_score": 55,
+  "path_score": 68,
+  "final_score": 64
+}
+```
+
+session_id: 20260823_054423_b4ba14

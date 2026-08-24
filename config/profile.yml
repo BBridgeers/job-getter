@@ -1,0 +1,67 @@
+# Profile Configuration — Blake E. Bridgers
+
+name: "Blake E. Bridgers"
+email: "blake.bridgers2@outlook.com"
+phone: "(682) 300-6828"
+location: "Southlake, TX (DFW)"
+linkedin_url: "https://linkedin.com/in/blakebridgers"
+linkedin_display: "linkedin.com/in/blakebridgers"
+portfolio_url: "https://github.com/BBridgeers"
+portfolio_display: "github.com/BBridgeers"
+
+# Target roles
+target_roles:
+  - "Customer Success Executive"
+  - "Account Manager"
+  - "Implementation Consultant"
+  - "Client Partner"
+  - "Strategic Account Executive"
+
+# Geography
+geo_preferences:
+  - "DFW / North Texas"
+  - "Remote (US)"
+
+# Compensation
+compensation:
+  strategy: "flexible"
+  note: "Optimize for the right role/title, money follows"
+
+# PDF generation threshold
+auto_pdf_score_threshold: 4.0
+
+# Job search config
+search:
+  titles:
+    - "Customer Success Executive"
+    - "Customer Success Manager"
+    - "Account Manager"
+    - "Implementation Consultant"
+    - "Client Partner"
+    - "Strategic Account Executive"
+    - "Customer Success Director"
+    - "Senior Account Manager"
+    - "Client Executive"
+    - "Account Executive"
+  locations:
+    - "Dallas-Fort Worth"
+    - "Remote"
+    - "Texas"
+  exclude_titles:
+    - "Intern"
+    - "Junior"
+    - "Entry Level"
+    - "Associate"
+    - "Part-time"
+
+# Archetype definitions (from career-ops-shared, adapted for Blake)
+archetypes:
+  - name: "AI Transformation"
+    signals: ["change management", "adoption", "enablement", "transformation"]
+    fit: "strong — Yooz digital transformation, onboarding program design"
+  - name: "AI Forward Deployed"
+    signals: ["client-facing", "deploy", "prototype", "fast delivery", "field"]
+    fit: "strong — VCE implementation consulting, HPE enterprise deployments"
+  - name: "Technical AI PM"
+    signals: ["PRD", "roadmap", "discovery", "stakeholder", "product manager"]
+    fit: "moderate — Salesforce analytics, strategic account planning"
