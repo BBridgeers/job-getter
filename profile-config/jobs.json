@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "id": "4c88ed452af3",
+      "name": "Job Getter Bot — Always-On Scanner",
+      "prompt": "Run the job-getter bot scan cycle. You are Blake E. Bridgers' autonomous job acquisition engine.\n\nWORKSPACE: ~/Documents/job-getter/\nSKILL: Load career-ops-shared and career-ops-scan skills first.\n\nARCHITECTURE: Use Hermes native web_search for discovery, web_extract for JD extraction. Use the configured free OpenRouter model for analysis. Do NOT use Ollama Cloud — that is Blake's paid credits for interactive work.\n\nDO THIS:\n1. Read portals.yml for tracked companies and search queries\n2. Read data/scan-history.tsv for dedup\n3. Run web_search queries for CSE/AM/IC/CP/SAE roles in DFW + Remote\n   - Use site: filters: boards.greenhouse.io, jobs.ashbyhq.com, jobs.lever.co, linkedin.com/jobs\n4. For any Greenhouse/Ashby/Lever companies, web_extract their API endpoints\n5. Filter by title (positive: customer success, account manager, implementation, client partner, strategic account; negative: intern, junior, entry level, SDR, BDR)\n6. Filter by location (allow: dallas, fort worth, dfw, texas, remote, united states)\n7. Deduplicate against scan-history.tsv\n8. For new jobs: web_extract the posting URL to get full JD text\n9. For each new JD: extract key fields (title, company, location, comp, requirements, responsibilities, tech stack, seniority)\n10. Calculate 3D scores (Soul/Pocket/Path) from extracted fields\n11. For each new job scoring >= 3.5:\n    a. Add to data/pipeline.md (append under ## Pending)\n    b. INSERT into backend/jobs.db SQLite database using Python:\n       python -c \"import sqlite3; conn=sqlite3.connect('backend/jobs.db'); c=conn.cursor(); c.execute('INSERT INTO jobs (title, company, url, match_score, tier, status, date_added, soul_score, pocket_score, path_score, score_breakdown, search_type, location) VALUES (?,?,?,?,\\\"corporate\\\",\\\"New\\\",?,?,?,?,?,?,?)', (TITLE, COMPANY, URL, SCORE_100, DATE, SOUL, POCKET, PATH, BREAKDOWN_JSON, 'cron_scan', LOCATION)); conn.commit()\"\n    c. Score conversion: 5-scale to 100-scale (multiply by 20)\n12. Record all scanned URLs in data/scan-history.tsv\n13. Check data/applications.md for follow-ups needed\n14. Generate concise alert if: new jobs scoring >= 4.0, follow-ups overdue, interviews need scheduling\n\nREPORT FORMAT (concise — only surface what needs attention):\n- New high-score jobs found: N (list top 3 with company, role, score, URL)\n- Jobs evaluated this cycle: N\n- Follow-ups needed: N\n- Anything urgent: Y/N\n\nIf nothing new found, say exactly: [SILENT]",
+      "skills": [
+        "career-ops-shared",
+        "career-ops-scan",
+        "career-ops-evaluate",
+        "career-ops-pipeline",
+        "career-ops-followup",
+        "career-ops-tracker"
+      ],
+      "skill": "career-ops-shared",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider": "openrouter",
+      "provider_snapshot": null,
+      "model_snapshot": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": [
+        "self"
+      ],
+      "schedule": {
+        "kind": "interval",
+        "minutes": 240,
+        "display": "every 240m"
+      },
+      "schedule_display": "every 240m",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-24T15:43:53.786737-05:00",
+      "next_run_at": "2026-08-24T19:43:53.798775-05:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "telegram",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "C:\\Users\\yoga\\Documents\\job-getter"
+    }
+  ],
+  "updated_at": "2026-08-24T16:23:29.610631-05:00"
+}
