@@ -131,7 +131,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .rise-in, .paper-card, .paper-card:hover { animation: none !important; transition: none !important; transform: none !important; }
+    .rise-in, .paper-card, .paper-card:hover { animation: none !important; transition: none !important; transform: none !important; opacity: 1 !important; }
 }
 
 /* Scrollbar */
