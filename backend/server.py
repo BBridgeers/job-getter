@@ -524,8 +524,10 @@ def generate_brief():
     # Send to Telegram if requested
     telegram_sent = 0
     if send_telegram:
-        bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN")
-        chat_id = os.environ.get("TELEGRAM_HOME_CHANNEL", "YOUR_CHAT_ID")
+        bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+        chat_id = os.environ.get("TELEGRAM_HOME_CHANNEL", "")
+        if not bot_token or not chat_id:
+            return lines  # env not configured — skip Telegram silently
         try:
             # Split into 4000-char chunks (Telegram limit is 4096)
             chunks = []
