@@ -69,6 +69,16 @@ def ensure_schema(conn):
     c.execute("""CREATE TABLE IF NOT EXISTS strategy_kits (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         job_id INTEGER, data JSON, created_at DATETIME)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS activity_log (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        actor TEXT NOT NULL, action TEXT NOT NULL, details TEXT,
+        job_id INTEGER, job_title TEXT, job_company TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS brief_history (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        generated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+        actor TEXT DEFAULT 'user', telegram_sent INTEGER DEFAULT 0,
+        activities_count INTEGER DEFAULT 0, summary TEXT)""")
     conn.commit()
 
 
@@ -516,7 +526,20 @@ def generate_brief():
 
     # Applications
     lines.append("APPLICATIONS:")
-    lines.append(f"  JLL/Corrigo — Customer Success Executive — Applied (Jan 2026) — FOLLOW-UP OVERDUE")
+    conn2 = get_db()
+    try:
+        app_rows = conn2.execute(
+            "SELECT j.company, j.title, a.status, a.applied_date "
+            "FROM applications a JOIN jobs j ON j.id = a.job_id "
+            "ORDER BY a.applied_date DESC LIMIT 10"
+        ).fetchall()
+    finally:
+        conn2.close()
+    if app_rows:
+        for row in app_rows:
+            lines.append(f"  {row['company']} — {row['title']} — {row['status']} ({row['applied_date']})")
+    else:
+        lines.append("  (none yet)")
     lines.append("")
 
     brief_text = "\n".join(lines)
@@ -526,26 +549,25 @@ def generate_brief():
     if send_telegram:
         bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
         chat_id = os.environ.get("TELEGRAM_HOME_CHANNEL", "")
-        if not bot_token or not chat_id:
-            return lines  # env not configured — skip Telegram silently
-        try:
-            # Split into 4000-char chunks (Telegram limit is 4096)
-            chunks = []
-            text = brief_text
-            while text:
-                chunks.append(text[:4000])
-                text = text[4000:]
-            for chunk in chunks:
-                payload = json.dumps({"chat_id": chat_id, "text": chunk}).encode()
-                req = urllib.request.Request(
-                    f"https://api.telegram.org/bot{bot_token}/sendMessage",
-                    data=payload,
-                    headers={"Content-Type": "application/json"}
-                )
-                urllib.request.urlopen(req, timeout=10)
-            telegram_sent = 1
-        except Exception as e:
-            brief_text += f"\n\n[Telegram send failed: {e}]"
+        if bot_token and chat_id:
+            try:
+                # Split into 4000-char chunks (Telegram limit is 4096)
+                chunks = []
+                text = brief_text
+                while text:
+                    chunks.append(text[:4000])
+                    text = text[4000:]
+                for chunk in chunks:
+                    payload = json.dumps({"chat_id": chat_id, "text": chunk}).encode()
+                    req = urllib.request.Request(
+                        f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                        data=payload,
+                        headers={"Content-Type": "application/json"}
+                    )
+                    urllib.request.urlopen(req, timeout=10)
+                telegram_sent = 1
+            except Exception as e:
+                brief_text += f"\n\n[Telegram send failed: {e}]"
 
     # Record this brief in history
     conn = get_db()
